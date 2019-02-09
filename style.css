@@ -399,6 +399,11 @@ footer ul li a:hover:after {
 
 /* About section starts */
 
-section .aboutMe {
-    
+.aboutMe p {
+    font-size: 150%;
+}
+
+.technologies {
+    font-size: 150%;
+    margin-top: -50px;
 }
