@@ -401,9 +401,15 @@ footer ul li a:hover:after {
 
 .aboutMe p {
     font-size: 150%;
+    margin: 0 5px 0 5px;
 }
 
 .technologies {
     font-size: 150%;
     margin-top: -50px;
+}
+
+svg {
+    width: 100px;
+    margin: 100px 50px 10px 50px;
 }
