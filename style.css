@@ -173,12 +173,13 @@ b {
 
 .projects {
     margin-top: 80vh;
-    background-color: #eee
+    background-color: #eee;
+    
 }
 
 .projects .projects-collage {
-    /* max-width: 96rem;    Enable this if you want some margin down the sides of the projects. */
-    margin: 0 auto
+    max-width: 96rem;
+    margin: 0 0;
 }
 
 .projects .projects-collage::after {
@@ -257,7 +258,7 @@ a.project-item:hover .project-text h2:after {
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
     font-weight: 300;
-    color: #fafafa
+    color: #fafafa;
 }
 
 .project-text h2 {
@@ -270,12 +271,13 @@ a.project-item:hover .project-text h2:after {
 
 .project-text p {
     margin: 0;
-    padding-top: 1.5rem
+    padding-top: 1.5rem;
+    font-size: 0.9em;
 }
 
 img {
     height: 375px;
-    width: 100%
+    width: 100%;
 }
 
 /* Project style section ends */
@@ -398,18 +400,19 @@ footer ul li a:hover:after {
 /* Contact section ends */
 
 /* About section starts */
-
+.aboutMe {
+    margin: 0 10px;
+}
 .aboutMe p {
     font-size: 150%;
-    margin: 0 7px 0 5px;
 }
 
 .technologies {
     font-size: 150%;
-    margin-top: -50px;
 }
 
 svg {
     width: 100px;
-    margin: 25px 50px 0 50px;
+    height: auto;
+    margin: 30px 20px;
 }
