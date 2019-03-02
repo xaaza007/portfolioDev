@@ -217,8 +217,8 @@ a.project-item {
 
 @media (min-width: 769px) {
     a.project-item {
-        width:50%;
-        float: left
+        width: 50%;
+        float: left;
     }
 }
 
@@ -238,7 +238,7 @@ a.project-item:hover .project-text h2:after {
 
 @media (max-width: 768px) {
     a.project-item .project-overlay {
-        opacity:.7
+        opacity: .7;
     }
 
     a.project-item .project-text {
